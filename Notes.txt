@@ -1,0 +1,93 @@
+Dart is a client-optimized, object-oriented, modern programming language to build apps fast for many platforms like android,
+ iOS, web, desktop, etc. Client optimized means optimized for crafting a beautiful user interface and high-quality 
+ experiences. Google developed Dart as a programming language.
+
+Basic Programming Terms
+
+Important words that you often hear while learning programming languages.
+
+Statements: A statement is a command that tells a computer to do something. In Dart, you can end most statements with a 
+semicolon ;.
+
+Expressions: An Expression is a value or something that can be calculated as a value. 
+The expression can be numbers, text, or some other type. For E.g.
+
+a. 52
+b. 5+5
+c. 'Hello World.'
+d. num
+
+Keywords: Keywords are reserved words that give special meaning to the dart compiler. 
+For E.g. int, if, var, String, const, etc.
+
+Identifiers: Identifiers are names created by the programmer to define variables, functions, classes, etc.
+Identifiers shouldn’t be keywords and must have a unique name. For E.g. int age =19;,
+ here age is an identifier. You will learn more about identifiers later in this course.
+
+High-Level Programming Language: High-Level Programming Language is easy to learn, user-friendly, 
+and uses English-like-sentence. For E.g. dart,c,java,etc.
+
+Low-Level Programming Language: Low-level programming language is hard to learn, non-user friendly, 
+and deals with computer hardware components, e.g., machine and assembly language.
+
+Compiler: A compiler is a computer program that translates the high-level programming language into machine-level language.
+
+Syntax: The Syntax is a programming language’s pattern or rules that give the concept to code.
+
+Variables
+
+Variables are containers used to store value in the program. 
+
+Variable Types
+They are called data types. 
+
+String: For storing text value. E.g. “John” [Must be in quotes]
+int: For storing integer value. E.g. 10, -10, 8555 [Decimal is not included]
+double: For storing floating point values. E.g. 10.0, -10.2, 85.698 [Decimal is included]
+num: For storing any type of number. E.g. 10, 20.2, -20 [both int and double]
+bool: For storing true or false. E.g. true, false [Only stores true or false values]
+var: For storing any value. E.g. ‘Bimal’, 12, ‘z’, true
+
+type variableName = value;
+
+Dart Constants
+Dart Constant is defined as an immutable object, which means it can't be changed or modified during the
+ execution of the program. Once we initialize the value to the constant variable, it cannot be reassigned later.
+
+Defining/Initializing Constant in Dart
+The Dart constant can be defined in the following two ways.
+
+Using the final keyword
+Using the const keyword
+
+It is beneficial when we want to keep the value unchanged in the whole program. 
+The keywords final and const are used to create a constant variable.
+ Both keywords final and const are used as a conjunction with the data-type. 
+ Dart will throw an exception if we try to modify the constant variable.
+
+ Data Types
+Data types help you to categorize all the different types of data you use in your code.
+ For e.g. numbers, texts, symbols, etc. The data type specifies what type of value will be stored by the variable. 
+ Each variable has its data type. Dart supports the following built-in data types :
+
+Numbers
+Strings
+Booleans
+Lists
+Maps
+Sets
+Runes
+Null
+Built-In Types
+In Dart language, there is the type of values that can be represented and manipulated. 
+The data type classification is as given below:
+
+Data Type	Keyword	Description
+Numbers	int, double, num	It represents numeric values
+Strings	String	It represents a sequence of characters
+Booleans	bool	It represents Boolean values true and false
+Lists	List	It is an ordered group of items
+Maps	Map	It represents a set of values as key-value pairs
+Sets	Set	It is an unordered list of unique values of same types
+Runes	runes	It represents Unicode values of String
+Null	null	It represents null value
