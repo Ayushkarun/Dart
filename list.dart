@@ -1,20 +1,16 @@
 void main()
 {
 List<dynamic> names = ["Raj",3,6,"Max",true,4,6,"S"];
-
 print(names.indexOf(3));
 print(names.isEmpty);
 
 names[1] = "Bill";
-
 names.add(false);
 names.addAll([false,"a",7]);
-
 print(names[1]);
 
 names.insertAll(1, [6, 9]);
 names.insert(1, 5);
-
 names.replaceRange(4, 6, [5, 6, 7, 8]);
 
 names.remove(3);  
@@ -28,7 +24,6 @@ print(names.isNotEmpty);
 
 print(names);
 print(names.reversed);
-
 }
 
 /*
