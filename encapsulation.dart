@@ -1,23 +1,34 @@
-class BankAccount {
-  String accountHolder = ''; // Private property
-  double _balance = 0;
+class Employee {
 
-  // Getter
-  double get balance => _balance;
+  int? _id;
+  String? _name;
 
-  // Setter
-  void deposit(double amount) {
-    if (amount > 0) {
-      _balance += amount;
-      print('Deposited: $amount');
-    } else {
-      print('Invalid deposit amount');
-    }
+
+  int getId() {
+    return _id!;
   }
+
+  String getName() {
+    return _name!;
+  }
+
+  void setId(int id) {
+    this._id = id;
+  }
+
+  void setName(String name) {
+    this._name = name;
+  }
+  
 }
 
 void main() {
-  BankAccount account = BankAccount();
-  account.deposit(500);
-  print('Balance: ${account.balance}');
+  Employee emp = new Employee();
+
+  emp.setId(1);
+  emp.setName("John");
+
+
+  print("Id: ${emp.getId()}");
+  print("Name: ${emp.getName()}");
 }
