@@ -33,3 +33,25 @@ void main() {
   student.display();
   student.displaySchoolInfo();
 }
+
+
+/*
+class A{
+  
+void display()
+{
+  print("Hai");
+}
+}
+
+class B extends A {
+  
+}
+
+void main()
+{
+  B c=B();
+  c.display();
+}
+
+*/
