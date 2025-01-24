@@ -1,34 +1,18 @@
-class Employee {
+class student
+{
+String? name;
+int? age;
+String? _password;
 
-  int? _id;
-  String? _name;
-
-
-  int getId() {
-    return _id!;
-  }
-
-  String getName() {
-    return _name!;
-  }
-
-  void setId(int id) {
-    this._id = id;
-  }
-
-  void setName(String name) {
-    this._name = name;
-  }
-  
+String getpassword()
+{
+  return _password!;
 }
 
-void main() {
-  Employee emp = new Employee();
+void setpassword(String password)
+{
+  this._password=password;
+}
 
-  emp.setId(1);
-  emp.setName("John");
 
-
-  print("Id: ${emp.getId()}");
-  print("Name: ${emp.getName()}");
 }
