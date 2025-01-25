@@ -1,4 +1,39 @@
-Compile-Time Polymorphism (Method Overloading)
+class Animals
+{
+void life()
+{
+print("Life on earth");
+}
+}
+
+class Fish extends Animals
+{
+@override
+void life()
+{
+  print("fish can swim");
+}
+}
+
+class Bird extends Animals
+{
+@override
+ void life()
+ {
+print("bird can fly");
+ }
+}
+
+void main()
+{
+Bird bs=Bird();
+bs.life();
+Fish bsd=Fish();
+bsd.life();
+}
+
+/*
+
 class Calculator {
   // Method with optional named parameters
   void add({int? a, int? b, int? c}) {
@@ -49,3 +84,4 @@ void main() {
   Animal cat = Cat();
   cat.sound();    // Output: Cat meows
 }
+*/
