@@ -1,14 +1,10 @@
-/*
-Create a class Car with properties brand and year.
- Write a parameterized constructor to initialize these properties and print the details of the car
- */
 
 class Car 
 {
   String brand;
   int year;
 
-  // Parameterized Constructor
+ 
   Car(this.brand, this.year);
   
   void detail()
