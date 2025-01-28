@@ -10,7 +10,7 @@ int perimeter=2*(length+breadth);
 print("Perimeter is $perimeter");
 }
 /*
-////Another Way
+Another Way
 
 void main()
 {
