@@ -1,3 +1,5 @@
+
+///stream is a multiple asynchronise event
 Stream<String> getUserName() async* {
   await Future.delayed(Duration(seconds: 1));
   yield 'Ak';
